@@ -1,0 +1,44 @@
+# Node
+node_modules/
+package.json
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# Word lock files
+~$*.docx
+
+# Локальные временные файлы
+*.tmp
+*.bak
+
+# Артефакты выгрузки CSV (задача 1.4) — генерируются скриптом
+hw_coursework_task1/out/
+
+# Сгенерированные офисные файлы — на гитхабе только готовые PDF
+*.docx
+*.html
+
+# Папки со скринами — рабочий материал для отчётов
+screens_task1_1/
+screens_task1_2/
+screens_task1_3/
+screens_task1_4/
+
+# Talend / data — большие артефакты, не нужны в git
+hw_coursework_task1/data/
+hw_coursework_task1/talend/
